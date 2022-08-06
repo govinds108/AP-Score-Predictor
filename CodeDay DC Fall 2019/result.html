@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>AP Scores Predictor - Result</title>  
+  
+    <script>
+      window.onload = function () {
+      
+      var chart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        theme: "light2",
+        title:{
+          text: "AP Mean Score from 1997 to 2019"
+        },
+        width: 750,
+        /*How do you center the chart?*/
+         axisY:{
+		    	title:"AP Mean Score",
+          includeZero: true
+          },
+	    	  axisX:{
+		      	title:"Year"
+          },
+        data: [{        
+          type: "line",       
+          dataPoints: [
+            { x: 1997 ,y: 3.59 },
+            { x: 1998 ,y: 3.77 },
+            { x: 1999 ,y: 3.75 },
+            { x: 2000 ,y: 3.75 },
+            { x: 2001 ,y: 3.81 },
+            { x: 2002 ,y: 3.90 },
+            { x: 2003 ,y: 3.89 },
+            { x: 2004 ,y: 3.84 },
+            { x: 2005 ,y: 3.96 },
+            { x: 2006 ,y: 3.99 },
+            { x: 2007 ,y: 3.93 },
+            { x: 2008 ,y: 3.92 },
+            { x: 2009 ,y: 3.99 },
+            { x: 2010 ,y: 4.11 },
+            { x: 2011 ,y: 4.04 },
+            { x: 2012 ,y: 4.15 },
+            { x: 2013 ,y: 4.02 },
+            { x: 2014 ,y: 4.05 },
+            { x: 2015 ,y: 4.03 },
+            { x: 2016 ,y: 4.14 },
+            { x: 2017 ,y: 4.12},
+            { x: 2018 ,y: 4.09 },
+            { x: 2019 ,y: 4.15}
+          ]
+        }]
+      });
+      chart.render();
+      
+      }
+      </script>
+
+  </head>
+  <body>
+  
+        <h1 style="text-align:center">Your Information</h1>
+
+        <div class = "info">
+            
+        <h2 id="class"></h2>
+
+        <h2 id="grade"></h2>
+
+        <h2 id="gender"></h2>
+
+        <h2 id="race"></h2>
+
+        <h2 id="state"></h2>
+          </div>
+      
+          <!--<hr>-->
+          <div class="main">
+          <br>
+                <!--<div class="container">-->
+                
+                  <h1 style="text-align:center">Previous Year's Scores</h1>
+            <!--</div>-->
+            <br>
+        </div>
+        <table style="text-align:center">
+            
+          <tr>
+            <th><b>Score</b></th>
+            <th><b>Percentage</b></th>
+          </tr>
+          
+          <tr>
+            <th>5</th>
+            <th>57%</th>
+          </tr>
+          
+          <tr>
+            <th>4</th>
+            <th>16%</th>
+          </tr>
+          
+          <tr>
+            <th>3</th>
+            <th>15%</th>
+	        </tr>
+        <tr>
+            <th>2</th>
+            <th>9%</th>
+        </tr>
+        
+        <tr>
+            <th>1</th>
+            <th>3%</th>
+	   	  </tr>
+        </table>
+        <br>
+
+        <div id="chartContainer"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <br>
+  </body>
+  
+  <script src="main2.js"></script>  
+</html>

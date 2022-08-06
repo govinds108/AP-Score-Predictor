@@ -1,0 +1,124 @@
+h1,h2,h3{
+	font-family: 'Raleway', sans-serif;
+}
+p, ul{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+}
+
+fieldset{
+    margin: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.header {
+  background: url(images/homeimg.jpg) no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+ul{
+	text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #0077c7;
+}
+
+h1, p, li, ul, legend{
+    color: white;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: 1000;
+}
+
+li{
+	text-align: center;
+}	
+
+a{
+}	
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+.header p {
+  color: #aaa;
+  font-weight: 250px;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+input {
+  background: #0077c7;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+  margin: 10px;
+  border: 1.5px solid #3498db;
+  }
+
+  select{
+    background: #fff;
+  color: #0077c7;
+  padding: 4px 10px;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 3px;
+  border: 1.5px solid #3498db;
+  }
+  
+  option{
+	  background:white;
+	  color:#0077c7;
+  }
+
+input:hover {
+  background: #B9DFFF;
+  color: white;
+  padding: 4px 10px;  
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  border: 1.5px solid #3498db;
+}
+  
+
+    th{
+      text-align: center;
+    /*  border: 3px solid #0077c7;*/
+      align-content: center;
+      background-color: white;
+      color: #0077c7;
+      font-size:30px;
+    }
+
+    table{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .info{
+        margin-left: 400px;
+        color: white;
+    }
+  #chartContainer{
+    /*display: block;*/
+    margin-left: 255px;
+    width: 50%;
+  }
